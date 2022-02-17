@@ -47,9 +47,9 @@ namespace TailSpin.SpaceGame.Web.Models
     {
         // The player's score.
         [JsonPropertyName("score")]
-        public Score Score;
+        public Score Score { get; set; }
         // The player's profile.
         [JsonPropertyName("profile")]
-        public Profile Profile;
+        public Profile Profile { get; set; }
     }
 }
